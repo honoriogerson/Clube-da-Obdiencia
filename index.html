@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube da Obediência | Adestramento Profissional</title>
+    <meta name="description" content="Transforme o comportamento do seu cão com o adestramento profissional de Daniel Santos. Turma de inauguração com vagas limitadas.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="parallax-bg" id="parallax-bg"></div>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        
+        <div class="container hero-content">
+            <div class="badge" data-aos="fade-up" data-aos-delay="100">🔥 Vagas limitadas</div>
+            
+            <h1 data-aos="fade-up" data-aos-delay="200">
+                Transforme o comportamento <br><span class="highlight">do seu cão</span>
+            </h1>
+            
+            <p class="subtitle" data-aos="fade-up" data-aos-delay="300">
+                Adestramento profissional com Daniel Santos
+            </p>
+            
+            <div class="countdown-wrapper" data-aos="fade-up" data-aos-delay="400">
+                <p class="countdown-title" id="countdown-title">🔥 Turma de inauguração encerra em:</p>
+                <div class="countdown" id="countdown">
+                    <div class="time-box">
+                        <span class="time-value" id="days">00</span>
+                        <span class="time-label">Dias</span>
+                    </div>
+                    <span class="separator">:</span>
+                    <div class="time-box">
+                        <span class="time-value" id="hours">00</span>
+                        <span class="time-label">Horas</span>
+                    </div>
+                    <span class="separator">:</span>
+                    <div class="time-box">
+                        <span class="time-value" id="minutes">00</span>
+                        <span class="time-label">Min</span>
+                    </div>
+                    <span class="separator">:</span>
+                    <div class="time-box">
+                        <span class="time-value" id="seconds">00</span>
+                        <span class="time-label">Seg</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary pulse" onclick="abrirWhatsApp('Plano Fundador')" data-aos="fade-up" data-aos-delay="500">
+                👉 Quero garantir minha vaga
+            </button>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Por que escolher o Clube da Obediência?</h2>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-icon">🧠</div>
+                    <h3>Análise comportamental</h3>
+                    <p>Compreendemos as raízes dos problemas para soluções reais.</p>
+                </div>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-icon">📈</div>
+                    <h3>Treinamento contínuo</h3>
+                    <p>Acompanhamento progressivo para resultados duradouros.</p>
+                </div>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-icon">🐕</div>
+                    <h3>Melhor evolução do cão</h3>
+                    <p>Seu cão atinge o potencial máximo de convivência e obediência.</p>
+                </div>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="benefit-icon">🤝</div>
+                    <h3>Suporte profissional</h3>
+                    <p>Orientação especializada durante toda a jornada de aprendizado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="plans" id="plans">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Escolha o plano ideal para seu cão</h2>
+            
+            <div class="plans-carousel">
+                
+                <!-- Destak Plan (Fundador) -->
+                <div class="plan-card plan-destak" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="plan-badge">🔥 LIMITADO</div>
+                    <h3>Plano Fundador</h3>
+                    <div class="plan-price">A partir de <span>R$ 249,90</span>/mês</div>
+                    
+                    <div class="plan-details">
+                        <div class="plan-tier">
+                            <h4>Individual (3 meses)</h4>
+                            <ul>
+                                <li>2x por semana (24 aulas): <strong>R$ 1.039,90/mês</strong></li>
+                                <li>1x por semana (12 aulas): <strong>R$ 559,90/mês</strong></li>
+                            </ul>
+                        </div>
+                        <div class="plan-tier">
+                            <h4>Coletivo</h4>
+                            <ul>
+                                <li>1x por semana (12 aulas): <strong>R$ 249,90/mês</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li><span class="check">✔️</span> Análise comportamental</li>
+                        <li><span class="check">✔️</span> Treinamento contínuo</li>
+                        <li><span class="check">✔️</span> Melhor evolução do cão</li>
+                        <li><span class="check">✔️</span> Suporte profissional</li>
+                    </ul>
+                    
+                    <button class="btn btn-primary" onclick="abrirWhatsApp('Plano Fundador')">Quero esse plano</button>
+                </div>
+
+                <!-- Familiar Plan -->
+                <div class="plan-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="plan-icon">🏡</div>
+                    <h3>Plano Familiar</h3>
+                    
+                    <div class="plan-details single-pricing">
+                        <p class="pricing-row">Mensal: <strong>R$ 1.199,00</strong></p>
+                        <p class="pricing-row">Trimestral: <strong>R$ 1.359,00/mês</strong></p>
+                    </div>
+                    
+                    <div class="plan-observation">
+                        <p>* 2 cães. Cães adicionais sob consulta.</p>
+                    </div>
+                    
+                    <div class="card-spacer"></div>
+                    <button class="btn btn-secondary" onclick="abrirWhatsApp('Plano Familiar')">Quero esse plano</button>
+                </div>
+
+                <!-- Regulares Plan -->
+                <div class="plan-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="plan-icon">⚫</div>
+                    <h3>Planos Regulares</h3>
+                    
+                    <div class="plan-details single-pricing">
+                        <p class="pricing-info">Para 2 cães</p>
+                        <p class="pricing-row">Mensal: <strong>R$ 1.359,00</strong></p>
+                        <p class="pricing-row">Trimestral: <strong>R$ 1.359,90</strong></p>
+                    </div>
+                    
+                    <div class="card-spacer"></div>
+                    <button class="btn btn-secondary" onclick="abrirWhatsApp('Planos Regulares')">Quero esse plano</button>
+                </div>
+
+                <!-- Personalizado Plan -->
+                <div class="plan-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="plan-icon">🧩</div>
+                    <h3>Plano Personalizado</h3>
+                    
+                    <div class="plan-details single-pricing flex-center">
+                        <p class="pricing-row highlight-text">Sob medida</p>
+                        <p class="pricing-info">Valor sob avaliação</p>
+                    </div>
+                    
+                    <div class="card-spacer"></div>
+                    <button class="btn btn-secondary" onclick="abrirWhatsApp('Plano Personalizado')">Quero esse plano</button>
+                </div>
+
+            </div>
+            
+            <div class="swipe-hint">
+                <span>← Arraste para ver mais →</span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Clube da Obediência. Todos os direitos reservados. Daniel Santos.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
