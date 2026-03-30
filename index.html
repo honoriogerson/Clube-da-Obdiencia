@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clube da Obediência | Adestramento Profissional</title>
-    <meta name="description" content="Transforme o comportamento do seu cão com o adestramento profissional de Daniel Santos. Turma de inauguração com vagas limitadas.">
-    
+    <meta name="description"
+        content="Transforme o comportamento do seu cão com o adestramento profissional de Daniel Santos. Turma de inauguração com vagas limitadas.">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
+
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <!-- Hero Section -->
@@ -23,18 +26,18 @@
         <div class="parallax-bg" id="parallax-bg"></div>
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
-        
+
         <div class="container hero-content">
             <div class="badge" data-aos="fade-up" data-aos-delay="100">🔥 Vagas limitadas</div>
-            
+
             <h1 data-aos="fade-up" data-aos-delay="200">
                 Transforme o comportamento <br><span class="highlight">do seu cão</span>
             </h1>
-            
+
             <p class="subtitle" data-aos="fade-up" data-aos-delay="300">
                 Adestramento profissional com Daniel Santos
             </p>
-            
+
             <div class="countdown-wrapper" data-aos="fade-up" data-aos-delay="400">
                 <p class="countdown-title" id="countdown-title">🔥 Turma de inauguração encerra em:</p>
                 <div class="countdown" id="countdown">
@@ -60,7 +63,8 @@
                 </div>
             </div>
 
-            <button class="btn btn-primary pulse" onclick="abrirWhatsApp('Plano Fundador')" data-aos="fade-up" data-aos-delay="500">
+            <button class="btn btn-primary pulse" onclick="abrirWhatsApp('Plano Fundador')" data-aos="fade-up"
+                data-aos-delay="500">
                 👉 Quero garantir minha vaga
             </button>
         </div>
@@ -70,7 +74,7 @@
     <section class="benefits" id="benefits">
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">Por que escolher o Clube da Obediência?</h2>
-            
+
             <div class="benefits-grid">
                 <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="benefit-icon">🧠</div>
@@ -100,96 +104,166 @@
     <section class="plans" id="plans">
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">Escolha o plano ideal para seu cão</h2>
-            
+
             <div class="plans-carousel">
-                
-                <!-- Destak Plan (Fundador) -->
-                <div class="plan-card plan-destak" data-aos="zoom-in" data-aos-delay="200">
+                <!-- Plano Fundador -->
+                <div class="plan-card plan-destak" data-aos="zoom-in" data-aos-delay="100">
                     <div class="plan-badge">🔥 LIMITADO</div>
                     <h3>Plano Fundador</h3>
-                    <div class="plan-price">A partir de <span>R$ 249,90</span>/mês</div>
-                    
+                    <div class="plan-price">Melhor custo-benefício</div>
+
                     <div class="plan-details">
                         <div class="plan-tier">
-                            <h4>Individual (3 meses)</h4>
+                            <h4>Coletivo (1x por semana)</h4>
                             <ul>
-                                <li>2x por semana (24 aulas): <strong>R$ 1.039,90/mês</strong></li>
-                                <li>1x por semana (12 aulas): <strong>R$ 559,90/mês</strong></li>
+                                <li>Mensal: <strong>R$ 249,90/mês</strong></li>
+                                <li>Trimestral: <strong>R$ 239,90/mês</strong></li>
                             </ul>
                         </div>
                         <div class="plan-tier">
-                            <h4>Coletivo</h4>
+                            <h4>Individual</h4>
                             <ul>
-                                <li>1x por semana (12 aulas): <strong>R$ 249,90/mês</strong></li>
+                                <li><strong>R$ 149,90 por aula</strong></li>
                             </ul>
                         </div>
                     </div>
-                    
+
                     <ul class="plan-features">
-                        <li><span class="check">✔️</span> Análise comportamental</li>
-                        <li><span class="check">✔️</span> Treinamento contínuo</li>
-                        <li><span class="check">✔️</span> Melhor evolução do cão</li>
-                        <li><span class="check">✔️</span> Suporte profissional</li>
+                        <li><span class="check">✔️</span> Turma de inauguração</li>
+                        <li><span class="check">✔️</span> Vagas limitadas</li>
                     </ul>
-                    
+
                     <button class="btn btn-primary" onclick="abrirWhatsApp('Plano Fundador')">Quero esse plano</button>
                 </div>
 
-                <!-- Familiar Plan -->
-                <div class="plan-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="plan-icon">🏡</div>
-                    <h3>Plano Familiar</h3>
-                    
-                    <div class="plan-details single-pricing">
-                        <p class="pricing-row">Mensal: <strong>R$ 1.199,00</strong></p>
-                        <p class="pricing-row">Trimestral: <strong>R$ 1.359,00/mês</strong></p>
-                    </div>
-                    
-                    <div class="plan-observation">
-                        <p>* 2 cães. Cães adicionais sob consulta.</p>
-                    </div>
-                    
-                    <div class="card-spacer"></div>
-                    <button class="btn btn-secondary" onclick="abrirWhatsApp('Plano Familiar')">Quero esse plano</button>
-                </div>
-
-                <!-- Regulares Plan -->
-                <div class="plan-card" data-aos="fade-up" data-aos-delay="300">
+                <!-- Valores Regulares -->
+                <div class="plan-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="plan-icon">⚫</div>
-                    <h3>Planos Regulares</h3>
-                    
-                    <div class="plan-details single-pricing">
-                        <p class="pricing-info">Para 2 cães</p>
-                        <p class="pricing-row">Mensal: <strong>R$ 1.359,00</strong></p>
-                        <p class="pricing-row">Trimestral: <strong>R$ 1.359,90</strong></p>
+                    <h3>Valores Regulares</h3>
+                    <div class="plan-price">Fora do lançamento</div>
+
+                    <div class="plan-details">
+                        <div class="plan-tier">
+                            <h4>Coletivo (1x por semana)</h4>
+                            <ul>
+                                <li>Mensal: <strong>R$ 349,90/mês</strong></li>
+                                <li>Trimestral: <strong>R$ 299,90/mês</strong></li>
+                            </ul>
+                        </div>
+                        <div class="plan-tier">
+                            <h4>Individual</h4>
+                            <ul>
+                                <li><strong>R$ 169,90 por aula</strong></li>
+                            </ul>
+                        </div>
                     </div>
-                    
+
                     <div class="card-spacer"></div>
-                    <button class="btn btn-secondary" onclick="abrirWhatsApp('Planos Regulares')">Quero esse plano</button>
+                    <button class="btn btn-secondary" onclick="abrirWhatsApp('Valores Regulares')">Quero esse
+                        plano</button>
                 </div>
 
-                <!-- Personalizado Plan -->
-                <div class="plan-card" data-aos="fade-up" data-aos-delay="400">
-                    <div class="plan-icon">🧩</div>
-                    <h3>Plano Personalizado</h3>
-                    
-                    <div class="plan-details single-pricing flex-center">
-                        <p class="pricing-row highlight-text">Sob medida</p>
-                        <p class="pricing-info">Valor sob avaliação</p>
+                <!-- Plano Fundador Familiar -->
+                <div class="plan-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="plan-icon">🏡</div>
+                    <h3>Plano Fundador Familiar</h3>
+                    <div class="plan-price">No mínimo <strong>2 Cães</strong></div>
+
+                    <div class="plan-details">
+                        <div class="plan-tier">
+                            <h4>Mensal (1x por semana)</h4>
+                            <ul>
+                                <li><strong>R$ 1.199,90/mês</strong></li>
+                            </ul>
+                        </div>
+                        <div class="plan-tier">
+                            <h4>Trimestral</h4>
+                            <ul>
+                                <li><strong>R$ 1.899,90 por mês</strong></li>
+                            </ul>
+                        </div>
                     </div>
-                    
+
+                    <div class="plan-observation">
+                        <p>* Para mais cães: CONSULTAR</p>
+                    </div>
+
                     <div class="card-spacer"></div>
-                    <button class="btn btn-secondary" onclick="abrirWhatsApp('Plano Personalizado')">Quero esse plano</button>
+                    <button class="btn btn-secondary" onclick="abrirWhatsApp('Plano Fundador Familiar (2 Cães)')">Quero
+                        esse plano</button>
+                </div>
+
+                <!-- Valores Regulares Familiar -->
+                <div class="plan-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="plan-icon">👥</div>
+                    <h3>Valores Regulares Familiar</h3>
+                    <div class="plan-price">No mínimo <strong>2 Cães</strong></div>
+
+                    <div class="plan-details">
+                        <div class="plan-tier">
+                            <h4>Mensal (1x por semana)</h4>
+                            <ul>
+                                <li><strong>R$ 1.359,90/mês</strong></li>
+
+                            </ul>
+                        </div>
+                        <div class="plan-tier">
+                            <h4>Trimestral</h4>
+                            <ul>
+                                <li><strong>R$ 1.359,90/mês</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="plan-observation">
+                        <p>* Para mais cães: CONSULTAR</p>
+                    </div>
+
+                    <div class="card-spacer"></div>
+                    <button class="btn btn-secondary"
+                        onclick="abrirWhatsApp('Valores Regulares Familiar (2 Cães)')">Quero esse plano</button>
+                </div>
+
+                <!-- Proteção Residencial -->
+                <div class="plan-card plan-destak"
+                    style="border-color: #ff4747; background: linear-gradient(180deg, rgba(255, 71, 71, 0.05) 0%, var(--bg-card) 100%); box-shadow: 0 20px 50px rgba(255, 71, 71, 0.1);"
+                    data-aos="fade-up" data-aos-delay="500">
+                    <div class="plan-icon">🛡️</div>
+                    <h3 style="font-size: 1.3rem">Formação em Proteção Residencial</h3>
+                    <div class="plan-price">Duração: <strong>8 meses</strong></div>
+
+                    <div class="plan-details">
+                        <div class="plan-tier">
+                            <ul>
+                                <li>Investimento: <strong>R$ 2.099,90/mês</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <ul class="plan-features">
+                        <li><span class="check">✔️</span> Controle emocional</li>
+                        <li><span class="check">✔️</span> Obediência sobre pressão</li>
+                        <li><span class="check">✔️</span> Progressão técnica segura</li>
+                        <li><span class="check">✔️</span> Direcionamento de instinto</li>
+                        <li><span class="check">✔️</span> Transferência adequada ao tutor</li>
+                    </ul>
+
+                    <div class="card-spacer"></div>
+                    <button class="btn btn-primary"
+                        style="background-color: #ff4747; box-shadow: 0 4px 20px rgba(255, 71, 71, 0.4);"
+                        onmouseover="this.style.backgroundColor='#e13333'"
+                        onmouseout="this.style.backgroundColor='#ff4747'"
+                        onclick="abrirWhatsApp('Formação em Proteção Residencial')">Quero esse plano</button>
                 </div>
 
             </div>
-            
+
             <div class="swipe-hint">
                 <span>← Arraste para ver mais →</span>
             </div>
         </div>
     </section>
-    
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -202,4 +276,5 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
